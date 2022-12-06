@@ -11,6 +11,7 @@
     
   }
   section#login > div#imagem {
+    background-position: center center;
     float: left;
     width: 30%;
     height: 100%;
@@ -24,13 +25,13 @@
 @media screen and (min-width:992px){
   body {
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
-
   }
 
   section#login {
     width: 950px;
   }
   section#login > div#imagem {
+    background-position: right bottom;
     float: right;
     width: 50%;
     height: 100%;
